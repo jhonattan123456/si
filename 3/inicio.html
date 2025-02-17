@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio de un desarrollador frontend con proyectos y artículos.">
+    <meta name="keywords" content="Frontend, Desarrollo Web, Proyectos, Contacto">
+    <meta name="author" content="Tu Nombre">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Inicio - Frontend Developer</title>
+</head>
+<body>
+    <header>
+        <h1>Frontend Developer</h1>
+        <nav>
+            <ul>
+                <li><a href="inicio.html">Inicio</a></li>
+                <li><a href="proyectos.html">Proyectos</a></li>
+                <li><a href="articulos.html">Artículos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <button class="modo-oscuro-btn" onclick="toggleDarkMode()">Modo Oscuro</button>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Bienvenido a mi Portafolio</h2>
+            <p>Explora mis proyectos y artículos sobre desarrollo frontend.</p>
+        </section>
+    </main>
+    <script>
+        function toggleDarkMode() {
+            document.body.classList.toggle("dark-mode");
+        }
+    </script>
+    <footer>
+        <p>&copy; 2025 Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
